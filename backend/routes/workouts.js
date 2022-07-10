@@ -7,22 +7,22 @@ router.get("/", (req, res) => {
 });
 
 //GET a single workout
-router.get("/.id", (res, req) => {
+router.get("/:id", (req, res) => {
   res.json({ mssg: "GET a single workout" });
 });
 
 //POST a new workout
-router.post("./", (res, rep) => {
+router.post("/", (req, res) => {
   res.json({ mssg: "POST a new workout" });
 });
 
 //DELETE a new workout
-router.delete("./:id", (res, rep) => {
+router.delete("/:id", (req, res) => {
   res.json({ mssg: "DELETE a  workout" });
 });
 
 //UPDATE a  workout
-router.patch("./:id", (res, rep) => {
+router.patch("/:id", (req, res) => {
   res.json({ mssg: "UPDATE a  workout" });
 });
 
