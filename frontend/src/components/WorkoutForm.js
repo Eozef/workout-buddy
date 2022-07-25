@@ -31,6 +31,7 @@ const WorkoutForm = () => {
       setReps("");
       setErr(null);
       //output the new workout
+
       console.log("new workout added", json);
     }
   };
