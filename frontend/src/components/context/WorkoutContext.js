@@ -24,7 +24,7 @@ export const WorkoutsContextProvider = ({ children }) => {
   });
 
   return (
-    <WorkoutContext.Provider value={{ state, dispatch }}>
+    <WorkoutContext.Provider value={{ ...state, dispatch }}>
       {children}
     </WorkoutContext.Provider>
   );
