@@ -102,7 +102,7 @@ form button {
   cursor: pointer;
 }
 
-div.error {
+div.err {
   padding: 10px;
   background: #ffefef;
   border: 1px solid var(--error);
@@ -111,6 +111,6 @@ div.error {
   margin: 20px 0;
 }
 
-input.error {
+input.err {
   border: 1px solid var(--error);
 }
