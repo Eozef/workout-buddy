@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useWorkoutsContext } from "../components/hooks/useWorkoutsContext";
+import { useWorkoutsContext } from "../hooks/useWorkoutsContext";
 import WorkoutDetails from "../components/WorkoutDetails";
 import WorkoutForm from "../components/WorkoutForm";
 

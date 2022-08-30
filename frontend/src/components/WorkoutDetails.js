@@ -1,4 +1,4 @@
-import { useWorkoutsContext } from "./hooks/useWorkoutsContext";
+import { useWorkoutsContext } from "../hooks/useWorkoutsContext";
 
 //import date fns
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
