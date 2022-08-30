@@ -16,7 +16,7 @@ export const workoutsReducer = (state, action) => {
       return {
         workouts: state.workouts.filter(
           //filter through current worksouts before making changes
-          //check if the if the id the one that meant to be deleted
+          //check if the id the one that meant to be deleted
           (workout) => workout._id !== action.payload._id
         ),
       };
