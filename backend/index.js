@@ -18,6 +18,8 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use(express.static("public"));
+
 // routes
 app.use("/api/workouts", workoutRoutes);
 app.use("/api/user", userRoutes);
@@ -34,3 +36,5 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
+module.exports = app;
